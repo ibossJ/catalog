@@ -5,6 +5,9 @@ import ProductList from './component/ProductList.react';
 
 
 class App extends Component {
+
+    
+
     render() {
         return (
             <div>
@@ -16,7 +19,7 @@ class App extends Component {
                     <div className="container">
                         <OrderBar />
                         
-                        <ProductList />
+                        <ProductList orderProduct="DESC " />
                     </div>
                 </section>
             </div>

@@ -3,12 +3,26 @@ import ProductListItem from './ProductListItem.react';
 
 class ProductList extends Component{
 
+    state ={
+        orderProduct : ''
+    }
+
+    componentDidMount() {
+        
+
+
+      
+    }
+
+
     render(){
+
+        let orderProduct = this.props.orderProduct;
 
 
         return(
                 <div>
-                    <ProductListItem/>
+                <ProductListItem orderProduct={orderProduct} />
                 </div>
              
         )
